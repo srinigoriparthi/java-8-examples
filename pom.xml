@@ -7,6 +7,14 @@
     <groupId>java-8-examples</groupId>
     <artifactId>java-8-examples</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <name>java-8-examples</name>
     <!-- FIXME change it to the project's website -->
