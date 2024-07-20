@@ -14,6 +14,7 @@ public class CompleatableFeatureException {
                 return "Adult";
             } else {
                 return "Child";
+
             }
         }).handle((res, ex) -> {
             if(ex != null) {
@@ -29,6 +30,7 @@ public class CompleatableFeatureException {
     public static void main(String args[]) throws ExecutionException, InterruptedException {
         CompletableFuture<String> cf = compute(-1);
         System.out.println("Final Result:"+cf.get());
+
     }
 
 }
